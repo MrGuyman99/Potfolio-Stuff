@@ -27,73 +27,103 @@
 
 <body class="jetbrains-mono-font">
     <div class="container">
-        <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
+            <a class="navbar-brand" href="index.html">Bodie's Portfolio</a>
+            <a class="nav-link text-secondary" href="hobbies.html">Hobbies</a>
+            <a class="nav-link text-secondary" href="vacations.html">Vacations</a>
+            <a class="nav-link text-secondary" href="schedule.html">Schedule</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Recipes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Recipes/recipeHTML.html">HTML Recipe</a>
+                            <a class="dropdown-item" href="Recipes/recipeCSS.html">HTML + CSS Recipe</a>
+                            <a class="dropdown-item" href="Recipes/recipeBOOT.html">Bootstrap Recipe</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        <div class="row mt-2">
             <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
-                    <a class="navbar-brand" href="index.html">Bodie's Portfolio</a>
-                    <a class="nav-link text-secondary" href="hobbies.html">Hobbies</a>
-                    <a class="nav-link text-secondary" href="vacations.html">Vacations</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Recipes
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="Recipes/recipeHTML.html">HTML Recipe</a>
-                                    <a class="dropdown-item" href="Recipes/recipeCSS.html">HTML + CSS Recipe</a>
-                                    <a class="dropdown-item" href="Recipes/recipeBOOT.html">Bootstrap Recipe</a>
-                                </div>
-                            </li>
-                        </ul>
+                <div class="card-group">
+                    <div class="card shadow" style="width: 20rem;">
+                        <img src="Media/Images/Coding.png" class="card-img-top" alt="C++">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming!</h5>
+                            <p class="card-text">
+                                Programming is one of my favorite hobbies, although I'm a bit more into backend
+                                development than frontend. C++ is a really old programming language built off of an even
+                                older programming language. It has manual pointers, isn't memory safe, and is sort of
+                                terrible, but I never cease to have fun messing around in it and that's why I love it.
+                                Programming is such an interesting thing because you can make literally whatever you
+                                want. You get such a visceral understanding of what people mean when they say, "Math is
+                                Everything".
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/C%2B%2B" class="btn btn-primary">Learn More!</a>
+                        </div>
                     </div>
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </nav>
+                    <div class="card shadow" style="width: 20rem;">
+                        <img src="Media/Images/Reading.jpg" class="card-img-top" alt="C++">
+                        <div class="card-body">
+                            <h5 class="card-title">Reading</h5>
+                            <p class="card-text">
+                                Kavalier and Clay is soooo good. Easily my favorite book. The narrative is so well done,
+                                the
+                                characters are so fleshed out, the world is so freaking cool, and the setting is
+                                honestly
+                                amazing. I've never read a book quite like it.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/The_Amazing_Adventures_of_Kavalier_%26_Clay"
+                                class="btn btn-primary">Learn More!</a>
+                        </div>
+                    </div>
+                    <div class="card shadow" style="width: 27rem;">
+                        <img src="Media/Images/Biking.jpg" class="card-img-top" alt="C++">
+                        <div class="card-body">
+                            <h5 class="card-title">Biking</h5>
+                            <p class="card-text">
+                                I really love Biking. I can bike long distances without activating my athsma, something
+                                I
+                                really can't do with running. When biking, I actually get what runners say when they say
+                                they love running, which I think is really cool! Seriously, if you've never gone biking
+                                before I would highly reccomend. I have fun even on my 30 year old bike with cobwebs
+                                growing
+                                on it :)
+                            </p>
+                            <a href="https://www.choosechicago.com/blog/sports-recreation/bicycling-in-chicago/"
+                                class="btn btn-primary">Learn More!</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row mt-2">
-            <div class="col-md-3">
-                <div class="card shadow" style="width: 20rem;">
-                    <img src="Media/Images/Coding.png" class="card-img-top" alt="C++">
+            <div class="col-md-12">
+                <div class="card shadow mx-auto" style="width: 60rem;">
+                    <img src="Media/Images/Camping.png" class="card-img-top" alt="C++">
                     <div class="card-body">
-                        <h5 class="card-title">Programming!</h5>
+                        <h5 class="card-title">Camping!</h5>
                         <p class="card-text">
-                            Programming in one of my favorite hobbies, although I'm a bit more into backend development
-                            than frontend. C++ is a really old programming language built off of an even older
-                            programming language. It has manual pointers, isn't memory safe, and is sort of a piece of
-                            sh*t, but it's a reliable piece of sh*t and that's why I love it.
+                            Camping is awesome. The photo above is from nordhouse dunes, and man going there over the
+                            summer was something. We (Being me, my sister, and my dad) camped at the dunes over the
+                            summer with some friends. Camping is seriously one of the best detoxs ever. You feel so good
+                            afterward. Plus, you get to hang with some cool people and do some dumb stuff
                         </p>
-                        <a href="https://en.wikipedia.org/wiki/C%2B%2B" class="btn btn-primary">Learn More!</a>
+                        <a href="https://www.fs.usda.gov/r09/huron-manistee/recreation/nordhouse-dunes-wilderness-area"
+                            class="btn btn-primary">Learn More!</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 ml-5">
-                <div class="card shadow" style="width: 20rem;">
-                    <img src="Media/Images/Reading.jpg" class="card-img-top" alt="C++">
-                    <div class="card-body">
-                        <h5 class="card-title">Programming!</h5>
-                        <p class="card-text">
-                            Kavalier and Clay is soooo good. Easily my favorite book. The narrative is so well done, the
-                            characters are so fleshed out, the world is so freaking cool, and the setting is honestly
-                            amazing. I've never read a book quite like it. If I have any advice read this book.
-                        </p>
-                        <a href="https://en.wikipedia.org/wiki/C%2B%2B" class="btn btn-primary">Learn More!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-
-            </div>
-            <div class="col-md-3">
-
-            </div>
-
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
